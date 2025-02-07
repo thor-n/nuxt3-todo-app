@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "nuxt.config.ts",
+    "composables/**/*.ts",
+    "store/**/*.ts",
+    "pages/**/*.vue",
+    "components/**/*.vue",
+    "layouts/**/*.vue"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,1 @@
+export { default } from "file:///D:/Propelcom/test-vs-copilot/nuxt3-todo-app/node_modules/nuxt/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
